@@ -12,7 +12,7 @@
     "ipfs": false
   },
   "scripts": {
-    "test": "aegir test",
+    "test": "aegir test --files test/interface/dht.spec.js",
     "test:node": "aegir test -t node",
     "test:browser": "aegir test -t browser",
     "test:webworker": "aegir test -t webworker",
