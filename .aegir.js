@@ -12,7 +12,7 @@ module.exports = {
       served: true,
       included: false
     }],
-    browserNoActivityTimeout: 150 * 1000,
+    browserNoActivityTimeout: 600 * 1000,
     singleRun: true
   },
   hooks: {
